@@ -1,0 +1,65 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Streamlit and local secrets
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Test, coverage, and type-checker caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Build and package artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated machine-learning artifacts
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+
+# Large/raw datasets (keep documentation or placeholders)
+data/*
+!data/.gitkeep
+!data/README.md
+
+# IDE settings
+.idea/
+.vscode/
+*.code-workspace
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
